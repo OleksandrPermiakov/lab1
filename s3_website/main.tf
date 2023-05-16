@@ -5,7 +5,6 @@ terraform {
     version = "~> 4.0"
     }
   }
-}
 
 # Configure AWS provider and creds
 provider "aws" {
