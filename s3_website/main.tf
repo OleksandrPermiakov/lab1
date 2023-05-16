@@ -1,4 +1,11 @@
-terraform { required_providers { aws = { source = "hashicorp/aws" version = "~> 4.0" } } }
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "~> 4.0"
+    }
+  }
+}
 # Configure AWS provider and creds
 provider "aws" {
   region = "us-east-1"
