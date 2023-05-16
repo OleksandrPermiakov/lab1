@@ -14,7 +14,7 @@ provider "aws" {
 
 # Creating bucket
 resource "aws_s3_bucket" "website" {
-  bucket = "terraform-permiakov"
+  bucket = "terraform-permiakov-2"
   tags = {
     Name = "Website"
     Environment = "Dev"
