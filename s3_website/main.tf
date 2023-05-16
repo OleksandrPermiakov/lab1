@@ -5,6 +5,7 @@ terraform {
     version = "~> 4.0"
     }
   }
+}
 
 # Configure AWS provider and creds
 provider "aws" {
@@ -13,7 +14,7 @@ provider "aws" {
 
 # Creating bucket
 resource "aws_s3_bucket" "website" {
-  bucket = "terraform-permiakov-2"
+  bucket = "terraform-permiakov_2"
   tags = {
     Name = "Website"
     Environment = "Dev"
